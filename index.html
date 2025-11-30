@@ -46,6 +46,9 @@
 	      </div>
 	    </div>
 	  </nav>
+	  <style>.js-fullheight {
+    height: 100vh !important;
+}</style>
 	  <section id="home-section" class="hero">
 		  <div class="home-slider  owl-carousel">
 	      <div class="slider-item ">
@@ -66,13 +69,6 @@
 	        	</div>
 	        </div>
 	      </div>
-		<script>
-			window.addEventListener("load", function() {
-			setTimeout(function(){
-				$('.js-fullheight').css('height', $(window).height());
-			}, 200);
-			});
-		</script>
 	      <div class="slider-item">
 	      	<div class="overlay"></div>
 	        <div class="container">
@@ -92,6 +88,13 @@
 	      </div>
 	    </div>
     </section>
+	<script>
+		window.addEventListener("load", function() {
+		setTimeout(function(){
+			$('.js-fullheight').css('height', $(window).height());
+		}, 200);
+		});
+	</script>
 
     <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
     	<div class="container">
